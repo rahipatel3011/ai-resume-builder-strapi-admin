@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_education_educations",
+  "info": {
+    "displayName": "Education",
+    "icon": "earth"
+  },
+  "options": {},
+  "attributes": {
+    "universityName": {
+      "type": "string"
+    },
+    "degree": {
+      "type": "string"
+    },
+    "major": {
+      "type": "string"
+    },
+    "startDate": {
+      "type": "date"
+    },
+    "endDate": {
+      "type": "date"
+    },
+    "description": {
+      "type": "text"
+    },
+    "currentlyStudying": {
+      "type": "boolean"
+    }
+  }
+}

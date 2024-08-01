@@ -1,0 +1,87 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_resumes",
+  "info": {
+    "singularName": "user-resume",
+    "pluralName": "user-resumes",
+    "displayName": "User Resume",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "resumeId": {
+      "type": "string",
+      "required": false,
+      "unique": true
+    },
+    "userEmail": {
+      "type": "email"
+    },
+    "userName": {
+      "type": "string"
+    },
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "jobTitle": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "text"
+    },
+    "education": {
+      "type": "component",
+      "repeatable": true,
+      "component": "education\\education.__filename__"
+    },
+    "themeColor": {
+      "type": "string"
+    },
+    "experience": {
+      "type": "component",
+      "repeatable": true,
+      "component": "experience\\experience.__filename__"
+    },
+    "skills": {
+      "type": "component",
+      "repeatable": true,
+      "component": "skills\\skills.__filename__"
+    },
+    "city": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "linkedInUrl": {
+      "type": "string"
+    },
+    "gitHubUrl": {
+      "type": "string"
+    },
+    "project": {
+      "type": "component",
+      "repeatable": true,
+      "component": "project\\project.__filename__"
+    }
+  }
+}

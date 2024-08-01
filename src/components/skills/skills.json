@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_skills_skills",
+  "info": {
+    "displayName": "Skills",
+    "icon": "brush"
+  },
+  "options": {},
+  "attributes": {
+    "skillType": {
+      "type": "string"
+    },
+    "skillValues": {
+      "type": "json"
+    }
+  }
+}
