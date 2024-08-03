@@ -38,6 +38,8 @@ export interface ApiUserResumeUserResume extends Struct.CollectionTypeSchema {
     linkedInUrl: Schema.Attribute.String;
     gitHubUrl: Schema.Attribute.String;
     project: Schema.Attribute.Component<'project\\project.__filename__', true>;
+    jobPost: Schema.Attribute.Text &
+      Schema.Attribute.DefaultTo<'add your job post here'>;
     createdAt: Schema.Attribute.DateTime;
     updatedAt: Schema.Attribute.DateTime;
     publishedAt: Schema.Attribute.DateTime;
